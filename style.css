@@ -6,7 +6,7 @@
 body {
   background-color: aliceblue;
   text-align: center;
-  color: navy;
+  color: rgb(107, 170, 140);
   margin: auto;
   font-family: water;
 }
@@ -16,8 +16,8 @@ h1{
 }
 
 #myCanvas {
-  background-image: url("https://seaviewinfo.com/wp-content/uploads/2018/07/SeaScape.jpg");
-  background-size: 600px 400px;
+  background-image: url("https://i.redd.it/zas8emooqh071.jpg");
+  background-size: 700px 500px;
   border-radius: 300px;
   border: 5px solid white;
 }
