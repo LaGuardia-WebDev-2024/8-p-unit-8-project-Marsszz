@@ -4,6 +4,7 @@ var roof = loadImage("Screenshot 2026-02-05 095845.png");
 var sidewall = loadImage("Screenshot 2026-02-05 100044.png");
 var flowerbarrel = loadImage("Screenshot 2026-02-05 100544.png");
 var wreath = loadImage("Screenshot 2026-02-05 100832.png");
+var villager = loadImage("https://static.wikia.nocookie.net/animalcrossing/images/1/16/Lolly_NH.png/revision/latest?cb=20200801231258");
 
 
 
@@ -13,12 +14,12 @@ setup = function() {
     size(700, 500);
     background(255,255,255,0);
     
-   
+   drawjuice(220,420);
 };
 
 //🟢draw Function - will run on repeat
 draw = function(){
-  
+ image(villager,150,300,100,150) 
 
 
 };
@@ -49,11 +50,10 @@ mouseClicked = function(){
 }
 
 
-//🟡drawFish Function - will run when called
-var drawFish = function(fishX, fishY, fishColor){
-  textSize(80);
-  fill(fishColor);
-  text("𓆝", fishX, fishY);
+//🟡drawjuice Function - will run when called
+var drawjuice = function(juiceX, juiceY){
+  textSize(50);
+  text("🧃", juiceX, juiceY);
 };
 
 
